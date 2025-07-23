@@ -50,3 +50,12 @@ insert into author (author_name,email,date_of_birth,nationality)values
     ('Naguib Mahfouz', 'naguib@gmail.com', '1911-12-11', 'Egyptian'),
     ('Johann Wolfgang von Goethe', 'Johann@gmail.com', '1749-08-28', 'German'),
     ('Alaa Al Aswany', 'alaa@gmail.com', '1957-05-26', 'Egyptian');
+
+
+##insert sample data in table books
+insert into books (title, ISBN, genre, author_id, price, quantity, release_date) values
+    ('Murder on the Orient Express', '9780062693662', 'Mystery', 1, 120.00, 20, '1934-01-01 00:00:00'),
+    ('The Thief and the Dogs', '9780385264761', 'Fiction', 2, 90.50, 15, '1961-01-01 00:00:00'),
+    ('Faust', '9780140449013', 'Tragedy', 3, 140.00, 10, '1808-01-01 00:00:00'),
+    ('The Yacoubian Building', '9780060878133', 'Drama', 4, 110.00, 12, '2002-01-01 00:00:00'),
+    ('Death on the Nile', '9780007119325', 'Crime', 1, 130.00, 18, '1937-11-01 00:00:00');
