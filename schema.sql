@@ -65,7 +65,10 @@ insert into users (user_name,email,password,birth_date)values
 ("Mohamed11","mohamed@gmail.com",SHA2('1234@55m', 256),"2002-07-05"),
 ("Amany10","amany@gmail.com",SHA2('99876aa@', 256),"2004-10-10"),
 ("Ayten55","ayten@gmail.com",SHA2('0985@346', 256),"2005-09-02"),
-("Ahmed99","ahmed@gmail.com",SHA2('#a23456@', 256),"1996-12-02");
+("Ahmed99","ahmed@gmail.com",SHA2('#a23456@', 256),"1996-12-02"),
+("laila33","laila@gmail.com",SHA2('#a267891', 256),"1999-12-10"),
+("saraXX","sara@gmail.com",SHA2('#a66449@', 256),"2000-01-02"),
+("Omar43","omar@gmail.com",SHA2('#a23400@', 256),"1998-10-02");
 
 ##insert sample data in table user_books
 insert into user_books (user_id,book_id,purchased_at)values
