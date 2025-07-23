@@ -1,0 +1,37 @@
+[
+  {
+    "book_id": 1,
+    "reviewer": "Mohamed",
+    "rating": 5,
+    "comment": "An inspiring read! Highly recommend it.",
+    "created_at": { "$date": "2025-07-01T10:15:00Z" }
+  },
+  {
+    "book_id": 2,
+    "reviewer": "Laila",
+    "rating": 4,
+    "comment": "Very insightful, but a bit slow in the middle.",
+    "created_at": { "$date": "2025-07-05T12:30:00Z" }
+  },
+  {
+    "book_id": 3,
+    "reviewer": "Ahmed",
+    "rating": 3,
+    "comment": "Average. Not bad, but not memorable either.",
+    "created_at": { "$date": "2025-07-10T08:45:00Z" }
+  },
+  {
+    "book_id": 1,
+    "reviewer": "Sara",
+    "rating": 5,
+    "comment": "Loved the writing style and characters!",
+    "created_at": { "$date": "2025-07-15T17:00:00Z" }
+  },
+  {
+    "book_id": 4,
+    "reviewer": "Omar",
+    "rating": 2,
+    "comment": "Didn't meet my expectations.",
+    "created_at": { "$date": "2025-07-20T21:10:00Z" }
+  }
+]
