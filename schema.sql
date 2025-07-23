@@ -59,3 +59,10 @@ insert into books (title, ISBN, genre, author_id, price, quantity, release_date)
     ('Faust', '9780140449013', 'Tragedy', 3, 140.00, 10, '1808-01-01 00:00:00'),
     ('The Yacoubian Building', '9780060878133', 'Drama', 4, 110.00, 12, '2002-01-01 00:00:00'),
     ('Death on the Nile', '9780007119325', 'Crime', 1, 130.00, 18, '1937-11-01 00:00:00');
+
+##insert sample data in table users with hashed password using SHA2-256
+insert into users (user_name,email,password,birth_date)values
+("Mohamed11","mohamed@gmail.com",SHA2('1234@55m', 256),"2002-07-05"),
+("Amany10","amany@gmail.com",SHA2('99876aa@', 256),"2004-10-10"),
+("Ayten55","ayten@gmail.com",SHA2('0985@346', 256),"2005-09-02"),
+("Ahmed99","ahmed@gmail.com",SHA2('#a23456@', 256),"1996-12-02");
