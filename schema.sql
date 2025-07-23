@@ -15,7 +15,7 @@ create table users (
 user_id int auto_increment primary key,
 user_name varchar(100),
 email varchar(100) unique,
-password varchar(100),
+password varchar(256),
 birth_date date
 );
 
