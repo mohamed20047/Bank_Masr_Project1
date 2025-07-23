@@ -66,3 +66,17 @@ insert into users (user_name,email,password,birth_date)values
 ("Amany10","amany@gmail.com",SHA2('99876aa@', 256),"2004-10-10"),
 ("Ayten55","ayten@gmail.com",SHA2('0985@346', 256),"2005-09-02"),
 ("Ahmed99","ahmed@gmail.com",SHA2('#a23456@', 256),"1996-12-02");
+
+##insert sample data in table user_books
+insert into user_books (user_id,book_id,purchased_at)values
+(1,2,"2025-07-01 10:15:00"),
+(1,4,"2025-07-10 15:45:00"),
+(3,5,"2023-06-25 09:00:00"),
+(4,3,"2024-02-05 13:20:00"),
+(2,2,"2025-07-03 18:30:00");
+
+
+select * from books;
+select * from users;
+select * from author;
+select * from user_books;
