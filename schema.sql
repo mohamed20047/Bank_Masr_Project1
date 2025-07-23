@@ -42,3 +42,11 @@ create table user_books (
   FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE ON UPDATE CASCADE,
   FOREIGN KEY (book_id) REFERENCES books(book_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+
+##insert sample data in table authors
+insert into author (author_name,email,date_of_birth,nationality)values
+   ('Agatha Christie', 'agathae@gmail.com', '1890-09-15', 'British'),
+    ('Naguib Mahfouz', 'naguib@gmail.com', '1911-12-11', 'Egyptian'),
+    ('Johann Wolfgang von Goethe', 'Johann@gmail.com', '1749-08-28', 'German'),
+    ('Alaa Al Aswany', 'alaa@gmail.com', '1957-05-26', 'Egyptian');
