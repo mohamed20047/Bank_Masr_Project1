@@ -28,7 +28,7 @@ author_id INT NOT NULL,
 price decimal(10,2) NOT NULL,
 quantity int NOT NULL,
 release_date datetime,
-FOREIGN KEY (author_id) REFERENCES authors(author_id) on delete cascade on update cascade
+FOREIGN KEY (author_id) REFERENCES author(author_id) on delete cascade on update cascade
 
 );
 
