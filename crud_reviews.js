@@ -1,4 +1,4 @@
-db = db.getSiblingDB('trials123');
+db = db.getSiblingDB('bookbazaar_reviews');
 
 print("All Reviews:");
 db.reviews.find();
