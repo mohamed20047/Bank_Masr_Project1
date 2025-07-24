@@ -1,4 +1,4 @@
-Create database bookbazar;
+Create database bookbazar DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;
 use bookbazar;
 CREATE USER 'bookadmin'@'localhost' IDENTIFIED BY '#0987#';
 GRANT ALL PRIVILEGES ON bookbazaar.* TO 'bookadmin'@'localhost';
